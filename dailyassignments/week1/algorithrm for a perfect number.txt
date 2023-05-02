@@ -1,0 +1,8 @@
+algorithrm for a perfect number
+step1:start
+step2:declare i,n,sum
+step3:intilize the i value=1,sum=0,num=6
+step4:if(n%i==o) then sum=sum+i otherwise repeat step 3 and 4
+step5:if sum==n
+step6:print it is an perefect number otherwise it is not an perfect number
+step7:stop

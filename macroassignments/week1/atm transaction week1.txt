@@ -1,0 +1,59 @@
+1)algorithrm for changing the pin
+step1:start
+step2:Insert the card
+step3:choose the language
+step4:Enter the pin
+step5:Select the option change pin
+step6:Enter the current pin
+step7:enter the new pin
+step8:reenter the new pin
+step9:Enter the otp sent to mobile
+step10:pin was changed sucessfully
+step11:stop
+
+2)algorithrm for withdrawal
+step1:start
+step2:Insert the card
+step3:choose the language
+step4:Enter the pin
+step5:select the option withdrawal
+step6:Enter the amount
+step7:conform the amount
+step8:take cash
+step9:do you want to display balance
+step10:transaction was succesfull
+step11:stop
+
+
+3)algorithrm for depositing
+step1:start
+step2:insert the card
+step3:choose the language
+step4:enter the pin
+step5:select the option deposit
+step6:enter the account number that you want to deposit
+step7:enter the pin
+step8:insert the cash
+step9:transaction is complete
+
+
+4)algorithrm for verifying the balance'
+step1:start
+step2:Insert the card
+step3:choose the language
+step4:Enter the pin
+step5:choose the option balce balance enquiry
+step6:balance is displayed
+step7:close the transaction
+step8:stop
+
+5)algorithrm for mini statements
+step1:start
+step2:Insert the passbook
+step3:choose the bar code scan
+step4:enter the duration of statement dates 
+step5:conform it
+step6:the statements will be displayed
+step7:close the transaction
+step8:stop
+

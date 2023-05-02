@@ -1,0 +1,7 @@
+1)algorithrm for average of 3 numbers
+step1:start
+step2:declare num1,num2,num3
+step3:read the values of num1,num2,and num3
+step4:avg=(num+num2+num3)/3
+step5:print average
+step6:stop

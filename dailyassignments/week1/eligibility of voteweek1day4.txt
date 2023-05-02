@@ -1,0 +1,9 @@
+algorithrm for checking whether he is eligible to vote or not
+step1:start
+step2:declare age
+step3:read the values of age
+step4:if(age>18)
+step5:print he is eligible to vote
+step6:else
+step7:print he is not eligible to vote
+step8:stop

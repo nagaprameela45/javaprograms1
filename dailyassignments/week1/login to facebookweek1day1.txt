@@ -1,0 +1,7 @@
+algorithrm for login to facebook
+step1:start
+step2:declare email,password
+step3:read the values of email and password
+step4:login to facebook 
+step5:give the details of email and password
+step6:stop

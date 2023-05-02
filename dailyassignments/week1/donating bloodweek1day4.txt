@@ -1,0 +1,9 @@
+algorithrm for donating blood in java]
+step1:start
+step2:declare donor name,blood group
+step3:read the values of donor name,blood group
+step4:if a blood group matches to the donor 
+step5:donate the blood
+step6:else
+step7:dont donate the blood
+step8:stop

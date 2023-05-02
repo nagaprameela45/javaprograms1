@@ -1,0 +1,7 @@
+step1:start
+step2:declare perimeter,radius,pi
+step3:intialize the values readius =6,pi=3.14
+step4:read the values of perimeter ,radius and pi
+step5:perimeter=2*II* r
+step6:display the perimeter
+step7:stop

@@ -1,0 +1,9 @@
+algorithrm for positive and negative number
+step1:start
+step2:declare num
+step3:read the values of num
+step4:if(num>0)
+step5:print it is a positive number
+step6:else
+step7:print it is a negative number
+step8:stop

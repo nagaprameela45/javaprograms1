@@ -1,0 +1,7 @@
+3)lgorithrm for area of a circle
+step1:start
+step2:declare area,side
+step3:read the values of area and side
+step4:area=side*side
+step5:display the area
+step6:stop

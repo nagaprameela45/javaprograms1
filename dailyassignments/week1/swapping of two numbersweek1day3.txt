@@ -1,0 +1,7 @@
+algorithrm for swapping of 2 numbers
+step1:start
+step2:declare num1,num2,temp
+step3:temp=num1
+step4:num1=num2
+step5:num2=num1
+step6:stop

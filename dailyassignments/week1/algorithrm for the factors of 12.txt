@@ -1,0 +1,9 @@
+algorithrm for the factors of 12
+step1:start
+step2:declare n=12
+step3:intialize i=1,n=12
+step4:if n%i==0
+step5:if we got the reamainder as zer0
+increment the i value as i=i+1
+step6:print the i value otherwise go to step7
+step7:stop

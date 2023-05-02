@@ -1,0 +1,7 @@
+step1:start
+step2:declare r,pi,circumference
+step3:intialize the values of r=6,pi=3.14
+step4:read the values of pi and radius 
+step5:circumference =2*ii*r
+step6:print circumference
+step7:stop

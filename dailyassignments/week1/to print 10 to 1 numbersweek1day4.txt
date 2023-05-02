@@ -1,0 +1,8 @@
+algorithrm to print 10 to 1 numbers
+step1:start
+step2:declare num,i
+step3:read the values of num and i
+step4:if(num>10)
+step5:num=num-i
+step6:print the number
+step7:stop

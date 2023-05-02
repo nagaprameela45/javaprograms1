@@ -1,0 +1,36 @@
+1)Visiting the libraray 
+step1:start
+step2:declare the library name
+step3:read the values of library name
+step4:read the book which you want to study.
+step5:mention the book name in reference book.
+step6:mention the login time and logout time .
+step7:stop.
+
+2)purchasing a book in website 
+step1:start
+step2:declare the book 
+step3:read the values of book
+step4:login to website 
+step5:search for a book which you want to purchase.
+step6:if it matches your consideration we will purchase a book by paying the amount methods through ATM or upi transactions like phonepay,google pay e.t.c.
+step7:stop
+
+3)returning the book
+step1:start
+step2:declare the book name
+step3:read the values of book name
+step4:mention the book name and date when you purchase the book
+step5:And then return the book
+step6:stop
+
+4)login to website
+step1:start
+step2:declare the website name
+step3:read the values of website name
+step4:sign into website by providing your detials like emailaddress and password 
+step5:stop
+
+
+
+

@@ -1,0 +1,7 @@
+step1:start
+step2:declare perimeter,length,breadth
+step3:intialize the values of length=7,breadth=9
+step4:read the values of length and breadth
+step5:perimeter=2*(length+breadth)
+step6:display the perimeter
+step7:stop

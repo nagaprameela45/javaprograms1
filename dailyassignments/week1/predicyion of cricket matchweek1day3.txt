@@ -1,0 +1,7 @@
+algorithrm for prediction of a match
+step1:start
+step2:declare 2 teams as mumbai indians and kolkata knight knider
+step3:read the values of 2 taaems
+step4:mumbai vs kkr played matches 11 out of 11 matches mi has won 9 mathes
+step5:based on the prediction mumbai indians have high chances of winning
+step6:stop

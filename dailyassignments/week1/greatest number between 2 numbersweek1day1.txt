@@ -1,0 +1,9 @@
+algorithrm for finding greatest number between 2 numbers
+step1:start
+step2:declare num1,num2
+step3:read the values of num1 and num2
+step4:if(num1>num2)
+step5:print num1 is the greatest number
+step6:else
+step7:print num2 is the greatest number
+step8:stop

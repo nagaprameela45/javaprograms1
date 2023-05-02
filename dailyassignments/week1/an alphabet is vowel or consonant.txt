@@ -1,0 +1,9 @@
+algorithrm to check an alphabet is vowel or consonant
+step1:start
+step2:declare ch
+step3:read the values of ch
+step4:if(ch='a','e','i','o','u')
+step5:print it is a vowel
+step6:else
+step7:print it is a consonant
+step8:stop

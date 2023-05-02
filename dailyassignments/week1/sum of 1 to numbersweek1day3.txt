@@ -1,0 +1,9 @@
+algorithrm for sum of 1 to 10 numbers
+step1:start
+step2:declare num,sum,i
+step3:intilaize the values i=0
+step4:read the values of num,sum,i
+step5:if(num<=10)
+step6:sum=sum+i
+step7:print the sum
+step8:stop

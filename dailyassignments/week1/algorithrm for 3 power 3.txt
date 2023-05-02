@@ -1,0 +1,8 @@
+algorithrm for 3 power 3
+step1:start
+step2:declare base,exponent,result,i
+step3:intilaize the base value=3 and exponent value=3 ,i=0
+step4:read the values of base and power
+step5:result=base*exponent
+step6:mutiply the result the by 3 times until it reaches i<28
+step7:stop

@@ -1,0 +1,11 @@
+algorithrm for the sum of even numbers
+upto 20
+step1:start
+step2:declare num,sum,i
+step3:intialize the values num=1,sum=0,i=1
+step4:read the avlues of num,sum,i
+step5:if(i<=20)
+step6:if(num%2==0)
+step7:sum=sum+i
+step8:print the sum
+step9:stop

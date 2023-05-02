@@ -1,0 +1,8 @@
+algorithrm for printing bitlabs 10 times
+step1:start
+step2:declare count,
+step3:assign the value of i=1
+step4:while(count<=10)
+step5:count=count+1
+step6:print bitlabs
+step5:stop

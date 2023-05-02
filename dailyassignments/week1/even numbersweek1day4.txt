@@ -1,0 +1,8 @@
+step1:start
+step2:declare num
+step3:read the values of num
+step4:if(num%2==0)
+step5:print it is a even number
+step6:else
+step7:print it is not a even number
+step8:Stop

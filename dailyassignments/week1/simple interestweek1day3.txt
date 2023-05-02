@@ -1,0 +1,8 @@
+algorithrm for simple interest
+step1:start
+step2:declare principle,rate of interest,no of years
+step3:intialize the values of principle=46,rate of interest=7,no of years=3
+step4:read the values of principle,reate of interest,no of years
+step5:si=(p*n*r)/100
+step6:print si
+step7:stop
