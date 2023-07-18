@@ -1,0 +1,36 @@
+/*Create a class called "Person" with instance variables for storing the person's name, age, and address. Implement a constructor that takes arguments for each variable and initializes the object.*/
+class Person
+  {
+    String name;
+    int age;
+    String adress;
+ Person(String na,int ag,String adre)
+    {
+    name=na;
+    age=ag;
+    adress=adre;
+    }
+    public void display()
+    {
+      System.out.println("name is:"+name);
+      System.out.println("age is:"+age);
+      System.out.println("adress is:"+adress);
+    }
+    public static void main(String args[])
+    {
+      Person p1 = new Person();
+      p1.name="prameela";
+      p1.age=23;
+      p1.adress="tenali";
+      Person p2 = new Person();
+      p2.name="sushma";
+      p2.age=24;
+      p2.adress="tenali";
+      p1.display();
+    }
+  }
+
+      
+      
+      
+    

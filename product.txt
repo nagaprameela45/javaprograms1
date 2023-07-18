@@ -1,0 +1,31 @@
+/*Create a class called "Product" with instance variables for storing the product name, price, and quantity. Implement a constructor that takes arguments for each variable and initializes the object.*/
+class Product
+  {
+    String name;
+    int price;
+    int quantiy;
+  public void insert(String n,price r,int y)
+    {
+      name=n;
+      Price=r;
+      quantiy=y;
+    }
+    public void display()
+    {
+      System.out.println("name is:"+name);
+      System.out.println("price is:"+price);
+      System.out.println("quantiy is:"+quantiy);
+    }
+    public static void main(String args[])
+    {
+      Product p1=new Product();
+      p1.name="prameela";
+      p1.price=500000;
+      p1.quantiy=500;
+      Product p2=new Product();
+      p2.name="divya";
+      p2.price=60000;
+      p2.quantiy=25;
+      p1.display();
+    }
+  }
