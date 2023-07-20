@@ -1,0 +1,21 @@
+/*Create a class called "Car" with instance variables for storing the make, model, and year of a car. Implement a constructor that initializes these variables and display the car's details.*/
+class Car
+  {
+    String model;
+    int year;
+    public void display()
+    {
+      System.out.println("car model name is:"+model);
+      System.out.println("car year is:"+year);
+    }
+    public static void main(String args[])
+    {
+      Car c1=new Car();
+      c1.model="maruthi";
+      c1.year=2020;
+      Car c2=new Car();
+      c2.model="nan0";
+      c2.year=2022;
+      c2.display();
+    }
+  }

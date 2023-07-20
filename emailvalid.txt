@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Emailvalid
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter e mail");
+      String s=sc.nextLine();
+      int count=0,ecount=0;
+          if(s.contains("@")&&s.contains("."))
+          {
+            count++;
+          }
+      if(s.endsWith(".com")||s.endsWith(".org"))
+      {
+        ecount++;
+      }
+        if(count>0&&ecount>0)
+        {
+          System.out.println("Email is valid");
+        }
+        else 
+          System.out.println("Email is invalid");
+      }
+        }

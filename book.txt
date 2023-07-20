@@ -1,0 +1,26 @@
+/*Create a class called "Book" with instance variables for storing the book title, author, and publication year. Implement a method named initializeBook that takes arguments for each variable and initializes the object. Display the details of the book using a separate method.*/
+class Book
+  {
+    String title;
+    String author;
+    int year;
+   public void insert(String n,String m,int r)
+      {
+      title=n;
+      author=m;
+      year=r;
+      }
+public void display()
+  {
+  System.out.println("the title of the book name is:+title");
+  System.out.println("the book author name is:"+author);
+  System.out.println("the book year is:"+year);
+  }
+public static void main(String args[])
+  {
+  Book bk=new Book();
+    bk.initializebook("atomic habits","chaung",2012);
+    bk.display();
+ }
+ }
+  
