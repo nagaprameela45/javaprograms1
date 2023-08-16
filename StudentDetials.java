@@ -1,16 +1,21 @@
-import java .util.Scanner;
-class StudentDetials
+ import java.util.Scanner;
+class StudentDetails
   {
-    public static void studentDetials(String name,int rno)
+    public static void main(String args[])
     {
-System.out.println("the student name:"+name+"rollno:+rno");
+      String sname;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter the student name:");
+      sname=sc.nextLine();
+      long srollnumber;
+      System.out.println("Enter the student rollno:");
+      srollnumber=sc.nextLong();
+      int sage;
+      System.out.println("Enter the student age:");
+      sage=sc.nextInt();
+      float spercentage;
+      System.out.println("Enter the student percentage:");
+      spercentage=sc.nextFloat();
     }
-    public static void main(String args[]){
-      Scanner Sc=new Scanner(System.in);
-      String name=Sc.next();
-      int srno=Sc.nextInt();
-      studentDetials("prameela",62);
-      studentDetials("mounika",64);
-    }
-   }
-  
+  }
+
