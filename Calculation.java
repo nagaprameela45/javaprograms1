@@ -1,41 +1,34 @@
-  import java.util.Scanner;
-class Calculation
-  {
-    public static void main(String args[])
-    {
-      Scanner sc=new Scanner(System.in);
-      char option;
-      
-      do{
-        System.out.println("select the operator");
-        System.out.print(" + --> Addition"+"\n" + " - ---> Subtraction"+"\n" +"* --> Multplication"+"\n"+"/ - division" );
-        char ch=sc.next().charAt(0);
-         System.out.println("enter a and b values");
-          int a=sc.nextInt();
-          int b=sc.nextInt();
-        if(ch=='+')
-        {
-         System.out.println("result of addition is"+ (a+b));
-        }
-        else if(ch=='-')
-        {
-          System.out.println("result of subtraction is"+ (a-b));
-        }
-        else if(ch=='*')
-        {
-          System.out.println("result of multplication is"+ (a*b));
-        }
-        else if(ch=='/')
-        {
-          System.out.println("result of division is"+ (a/b));
-        }
-                
-else {
-          System.out.println("invalid operator");
-}
-        System.out.println("do you want to continue: (y/n)");
-        option=sc.next().charAt(0);
-      }
-        while(option=='y'||option=='Y');
+/*
+Design a class MathOperations with a method calculate that performs different arithmetic operations (addition, subtraction, multiplication, division) on two integers and returns the result. Implement method overloading to support the following cases:
+perform addition.
+Perform subtraction.
+Perform multiplication.
+Perform division*/
+class MathOperations{
+  void add(int a,int b){
+    System.out.println("addition of two numbers is:"+(a+b));
+  }
+    void sub(int a,int b){
+      System.out.println("subraction of two numbers is:"+(a-b));
+    }
+  void mul(int a,int b){
+    System.out.println("multiplication of two numbers is:"+(a*b));
+  }
+  void div(float a,float b){
+    System.out.println("division of two numbers is:"+(a/b));
+  }
+  class Calculation{
+    public static void main(String args[]){
+      Calculation c=new Calculation();
+      c.add(10,20);
+      c.sub(20,30);
+      c.mul(40,50);
+      c.div(60,70);
     }
   }
+}
+
+
+  
+      
+  
