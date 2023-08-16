@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Nnsum {
+public static void main(String[] args)
+{
+   int i, n, sum=0;
+   {
+   Scanner sc= new Scanner(System.in);  
+        System.out.print("ener the number: ");  
+         n = sc.nextInt();
+}
+  System.out.println("The first n natural numbers are : "+n);
+  
+ for(i=1;i<=n;i++)
+   {
+     System.out.println(i);
+     sum=sum+i;
+   }
+System.out.println("The Sum of Natural Number upto "+n+ " terms : " +sum);
+
+}
+}

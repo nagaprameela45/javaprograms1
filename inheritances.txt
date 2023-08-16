@@ -1,0 +1,530 @@
+[12:37] S Pushpa latha (Guest)
+
+//single Inheritance
+
+class Bird
+
+  {
+
+    void fly()
+
+    {
+
+      System.out.println("flying");
+
+    }
+
+  }
+
+class Peacock extends Bird
+
+  {
+
+    void dance()
+
+    {
+
+      System.out.println("dancing");
+
+    }
+
+  }
+
+class SingleInheritance
+
+  {
+
+    public static void main(String args[])
+
+    {
+
+      Peacock p=new Peacock();
+
+      p.dance();
+
+      p.fly();
+
+    }
+
+  }
+
+[12:37] S Pushpa latha (Guest)
+
+//Single Inheritance
+
+class Animal
+
+  {
+
+    String name;
+
+    int age;
+
+    String breed;
+
+  }
+
+class dog extends Animal
+
+  {
+
+    void show()
+
+    {
+
+    System.out.println(name+" "+age+" "+breed);
+
+    }
+
+  }
+
+class SingleInheritance1
+
+  {
+
+    public static void main(String args[])
+
+    {
+
+      dog d=new dog();
+
+      d.name="Oscar";
+
+      d.age=9;
+
+      d.breed="pug";
+
+      d.show();
+
+    }
+
+  }
+
+[12:37] S Pushpa latha (Guest)
+
+//MultiLevel Inheritance
+
+class GrandParents
+
+  {
+
+    void surname()
+
+    {
+
+      System.out.println("surname will be same");
+
+    }
+
+  }
+
+class Parents extends GrandParents
+
+  {
+
+    void features()
+
+    {
+
+       System.out.println("similar features like his parents");
+
+    }
+
+  }
+
+class Children extends Parents
+
+{
+
+  void property()
+
+  {
+
+    System.out.println("Having same features like parents and grand parents");
+
+  }
+
+}
+
+class MultiLevelInheritance
+
+  {
+
+    public static void main(String args[])
+
+    {
+
+      Children ch=new Children();
+
+      ch.property();
+
+      ch.features();
+
+      ch.surname();
+
+    }
+
+  }
+
+[12:38] S Pushpa latha (Guest)
+
+/*Create a class called "Vehicle" with the following attributes:
+
+ 
+
+String make
+
+String model
+
+int numDoors
+
+boolean isConvertible*/
+
+//multilevel Inheritance
+
+class Vehicle
+
+  {
+
+    String make;
+
+    void make()
+
+    {
+
+      make="BMW";
+
+      System.out.println("Car name is "+make);
+
+    }
+
+  }
+
+class Version extends Vehicle
+
+  {
+
+    String model;
+
+    void model()
+
+    {
+
+      model="123AB";
+
+      System.out.println("model "+model);
+
+    }
+
+  }
+
+class Doors extends Version
+
+     {
+
+     int numDoors;
+
+    void numberOfDoors()
+
+     {
+
+    numDoors=4;
+
+    System.out.println(numDoors+" doors");
+
+    }
+
+  }
+
+class Convertible extends Doors
+
+{
+
+  boolean isConvertible;
+
+  void convertible()
+
+  {
+
+    isConvertible=true;
+
+    System.out.println("isConvertible "+isConvertible);
+
+  }
+
+}
+
+class MultilevelInheritance
+
+  {
+
+public static void main(String args[])
+
+    {
+
+      Convertible c=new Convertible();
+
+      c.make();
+
+      c.model();
+
+      c.numberOfDoors();
+
+      c.convertible();
+
+    }
+
+  }
+
+[12:38] S Pushpa latha (Guest)
+
+class Humans {
+
+  void sleep() {
+
+    System.out.println("all humans can sleep");
+
+  }
+
+ 
+
+  void eat() {
+
+    System.out.println("all humans can eat");
+
+  }
+
+ 
+
+  void walk() {
+
+    System.out.println("all humans can walk");
+
+  }
+
+}
+
+ 
+
+class Person1 extends Humans {
+
+  void person1() {
+
+    System.out.println("person1 name is ravi");
+
+  }
+
+}
+
+ 
+
+class Person2 extends Humans {
+
+  void person2() {
+
+    System.out.println("person2 name is raju");
+
+  }
+
+}
+
+ 
+
+class Person3 extends Humans {
+
+  void person3() {
+
+    System.out.println("person3 name is priya");
+
+  }
+
+}
+
+ 
+
+class Hierarchical {
+
+  public static void main(String args[]) {
+
+    Person1 p1 = new Person1();
+
+    Person2 p2 = new Person2();
+
+    Person3 p3 = new Person3();
+
+    p1.sleep();
+
+    p1.eat();
+
+    p1.walk();
+
+    p1.person1();
+
+    /*
+
+     * p2.sleep();
+
+     * p2.eat();
+
+     * p2.walk();
+
+     */
+
+    p2.person2();
+
+    /*
+
+     * p3.sleep();
+
+     * p3.eat();
+
+     * p3.walk();
+
+     */
+
+    p3.person3();
+
+  }
+
+}
+
+[12:38] S Pushpa latha (Guest)
+
+/*Create a superclass called "Shape" with the following attributes:
+
+ 
+
+String color
+
+double radius
+
+double length
+
+double width*/
+
+//Hierarchical Inheritance
+
+class Shape
+
+  {
+
+    String color;
+
+    double radius;
+
+    double length;
+
+    double width;
+
+    void display(String c,double r,double l,double w)
+
+    {
+
+    System.out.println("color "+c);
+
+      System.out.println("radius is "+r);
+
+      System.out.println("length is "+l);
+
+      System.out.println("width is "+w);
+
+  }
+
+  }
+
+class Circle extends Shape{
+
+  void shape()
+
+  {
+
+    System.out.println("It is Circle class");
+
+  }
+
+}
+
+class Sphere extends Shape{
+
+  void shape()
+
+  {
+
+   System.out.println("It is Sphere class");
+
+  }
+
+}
+
+class HierarchicalInheritance
+
+  {
+
+    public static void main(String args[])
+
+    {
+
+      Circle circle=new Circle();
+
+      Sphere sphere=new Sphere();
+
+      circle.shape();
+
+      circle.display("white",10,25,15);
+
+      sphere.shape();
+
+      sphere.display("Gray",17,20,10);
+
+    }
+
+  }
+
+/*Create a superclass called "Person" with the following attributes:
+String name
+int age
+double salary
+String major
+double gpa
+String company*/
+class Person
+  {
+  String name;
+  int age;
+  double salary;
+  double gpa;
+  String company;
+
+  }
+class Student extends Person{
+  void display(String n,int i,double g)
+  {
+    System.out.println(n+" "+i+" "+g);
+  }
+}
+class Child extends Student{
+  void display(String n,int i)
+  {
+    System.out.println(n+" "+i);
+  }
+}
+class Employee extends Person{
+  void display(String n,int i,double s,String c)
+  {
+    System.out.println(n+" "+i+" "+s+" "+c);
+  }
+} 
+class HybridInheritance
+  {
+    public static void main(String args[])
+    {
+      Student s=new Student();
+      Child c=new Child();
+      Employee e=new Employee();
+      s.display("pushpa",22,8.8);
+      c.display("latha",10);
+      e.display("Priya",40,25500,"Bitlabs");
+    }
+  }
+
+

@@ -4,9 +4,8 @@ import java.util.Scanner;
   Scanner sc = new Scanner(System.in);
    System.out.print("Input a number: ");
   int num1 = sc.nextInt();
-   for (int i=0; i< 10; i++){
-   System.out.println(num1 + " x " + (i+1) + " = " + 
-     (num1 * (i+1)));
+   for (int i=0; i<= 20; i++){
+   System.out.println(n + " * " + i + " = " + n*i);
   }
  }
 }
